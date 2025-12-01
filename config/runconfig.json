@@ -1,0 +1,25 @@
+{
+  "session_service": {
+    "type": "firestore",
+    "config": {
+      "project": "enterprise-agent-478612",
+      "collection": "adk_sessions"
+    }
+  },
+
+  "memory": {
+    "type": "memory_bank",
+    "config": {
+      "bucket": "enterprise-ai-agent-memory"
+    }
+  },
+
+  "compaction": {
+    "enabled": true,
+    "max_messages": 40
+  },
+
+  "resume": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "team",
+  "name": "Enterprise-AI-Agent",
+  "description": "Enterprise-grade multi-agent business analyst system using ADK.",
+
+  "team": {
+    "name": "enterprise_team",
+    "agents": [
+      "PlannerAgent",
+      "DataWorkerAgent",
+      "ForecastWorkerAgent",
+      "CriticAgent",
+      "ReporterAgent"
+    ],
+    "routing": "planner_first",
+    "max_turns": 12
+  },
+
+  "model": {
+    "provider": "google",
+    "name": "models/gemini-1.5-flash",
+    "temperature": 0.0
+  },
+
+  "runconfig": {
+    "streaming": true,
+    "cache": { "enabled": true },
+    "compaction": { "enabled": true, "max_messages": 40 }
+  },
+
+  "callbacks": [
+    "callbacks.observability.LoggingCallback"
+  ]
+}

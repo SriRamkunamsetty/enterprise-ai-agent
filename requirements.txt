@@ -1,0 +1,10 @@
+google-adk==1.16.0
+fastapi
+uvicorn[standard]
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+yfinance
+pandas
+pyyaml
+requests
