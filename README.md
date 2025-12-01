@@ -36,7 +36,13 @@ This project demonstrates all major components required for the Kaggle Agents In
 
 ## 📁 Project Structure
 
+## License
 
+This project is licensed under the  
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+You are free to use, modify, and share this project with attribution.  
+Full license text → https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## 🚀 Run Locally (Cloud Shell)
